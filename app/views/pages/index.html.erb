@@ -1,0 +1,9 @@
+<h1>Blog Pages</h1>
+
+<div>
+<% @pages.each do |page| %>
+    <h4><% page.title %></h4>
+    <p><% page.body %></p>
+    <% end %>
+
+</div>
